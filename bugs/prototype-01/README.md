@@ -10,4 +10,4 @@ Pins A0, A1 and A2 are floating. They have to be GND or 3V3.
 
 ### Fix
 
-Connect Pin A0, A1 and A2 to 3V3 since they are near it.
+Connect Pin A0, A1 and A2 to 3V3 since they are near it. This results in I2C Address `1001111`.
