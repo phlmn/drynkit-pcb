@@ -9,6 +9,7 @@
 *-rescue.lib
 *.kicad_pcb-bak
 _saved_*.sch
+*.sch-bak
 
 # Generated Files
 /assembly/
