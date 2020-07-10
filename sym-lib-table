@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name scale_parts)(type Legacy)(uri ${KIPRJMOD}/scale_parts.lib)(options "")(descr ""))
+)

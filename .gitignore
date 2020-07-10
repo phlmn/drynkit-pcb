@@ -1,0 +1,16 @@
+# KiCAD
+*~
+*.bak
+*.bck
+*.log
+*.net
+*.raw
+*-cache.lib
+*-rescue.lib
+*.kicad_pcb-bak
+_saved_*.sch
+
+# Generated Files
+/assembly/
+/gerber/
+
