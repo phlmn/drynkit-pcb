@@ -369,17 +369,6 @@ Text Label 8000 2400 2    50   ~ 0
 ADC_SCK
 Wire Wire Line
 	7550 2400 8000 2400
-$Comp
-L Connector:Jack-DC J5
-U 1 1 5ECD10DE
-P 1150 5750
-F 0 "J5" H 1207 6075 50  0000 C CNN
-F 1 "Jack-DC" H 1207 5984 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal" H 1200 5710 50  0001 C CNN
-F 3 "~" H 1200 5710 50  0001 C CNN
-	1    1150 5750
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	800  4700 6800 4700
 Wire Notes Line
@@ -1457,8 +1446,6 @@ $EndComp
 Wire Wire Line
 	8350 4850 8400 4850
 Wire Wire Line
-	8400 4850 8400 4650
-Wire Wire Line
 	8400 4200 8900 4200
 Wire Wire Line
 	8350 4950 8400 4950
@@ -1505,19 +1492,32 @@ Wire Notes Line
 	9200 3800 6950 3800
 Text Notes 7000 3750 0    50   ~ 0
 Temp Sensor
+Connection ~ 8400 4200
 $Comp
 L Device:R_Small R18
 U 1 1 5F151FDC
 P 8400 4550
 F 0 "R18" H 8341 4504 50  0000 R CNN
 F 1 "4.7k" H 8341 4595 50  0000 R CNN
-F 2 "" H 8400 4550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8400 4550 50  0001 C CNN
 F 3 "~" H 8400 4550 50  0001 C CNN
 F 4 "C23162" H 8400 4550 50  0001 C CNN "LCSC"
 	1    8400 4550
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
+	8400 4850 8400 4650
+Wire Wire Line
 	8400 4450 8400 4200
-Connection ~ 8400 4200
+$Comp
+L Connector:Jack-DC J5
+U 1 1 5ECD10DE
+P 1150 5750
+F 0 "J5" H 1207 6075 50  0000 C CNN
+F 1 "Jack-DC" H 1207 5984 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal" H 1200 5710 50  0001 C CNN
+F 3 "~" H 1200 5710 50  0001 C CNN
+	1    1150 5750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
