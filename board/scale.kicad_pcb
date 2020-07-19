@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 70)
+    (drawings 69)
     (tracks 413)
     (zones 0)
     (modules 54)
@@ -3039,7 +3039,7 @@
     )
   )
 
-  (gr_arc (start 20.500001 67.700001) (end 20.75 68) (angle -100.3890832) (layer F.SilkS) (width 0.12))
+  (gr_arc (start 20.500001 67.700001) (end 20.8 67.45) (angle -280.38867) (layer F.SilkS) (width 0.12))
   (gr_line (start 44.9 21.7) (end 45.3 21.5) (layer F.SilkS) (width 0.2))
   (gr_line (start 44.8 21.4) (end 44.9 21.7) (layer F.SilkS) (width 0.2) (tstamp 5F033510))
   (gr_line (start 45.3 21) (end 44.9 21.7) (layer F.SilkS) (width 0.2))
@@ -3068,7 +3068,6 @@
   (gr_circle (center 19.25 67.7) (end 19 68) (layer F.SilkS) (width 0.12) (tstamp 5F02C60F))
   (gr_circle (center 21.740512 67.7) (end 21.490512 68) (layer F.SilkS) (width 0.12))
   (gr_line (start 20.5 67.7) (end 21.3 67.7) (layer F.SilkS) (width 0.12))
-  (gr_arc (start 20.5 67.7) (end 20.799999 67.450001) (angle -281.5) (layer F.Fab) (width 0.12))
   (gr_circle (center 20.5 67.7) (end 20.6 67.7) (layer F.SilkS) (width 0.2))
   (gr_line (start 23.8 67.9) (end 24 67.9) (layer F.SilkS) (width 0.12))
   (gr_line (start 23.4 67.9) (end 23.6 67.9) (layer F.SilkS) (width 0.12))
